@@ -914,6 +914,7 @@ pub enum MessageType {
 	GuildInviteReminder = 22,
 	ContextMenuCommand = 23,
 	AutoModerationAction = 24,
+	PollResult = 46,
 }
 
 serial_use_mapping!(MessageType, numeric);
@@ -942,6 +943,7 @@ serial_numbers! { MessageType;
 	GuildInviteReminder, 22;
 	ContextMenuCommand, 23;
 	AutoModerationAction, 24;
+	PollResult, 46;
 }
 
 /// Information about an invite
